@@ -33,11 +33,20 @@
   <a href="#联系和交流">联系和交流</a>
 </p>
 
+
+## 运行命令
+mvn install -Dmaven.test.skip=true
+nohup java -jar latticy-0.2.1-RELEASE.jar
+Ctrl+z
+bg
+
 ## 预览
 
 ### 线上 demo
 
 [http://face.cms.talelin.com/](http://face.cms.talelin.com/)
+账号密码 root/123456
+
 
 ### 文档地址
 
